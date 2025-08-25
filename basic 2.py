@@ -1,7 +1,24 @@
 # write a table of 30 in a format 30 x 1 = 30
 
 
+n=30
+for i in range(1,11):
+    print(n,"x",i,"=",n*i)
+    
 
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
