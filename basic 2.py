@@ -10,29 +10,18 @@ for i in range(1,11):
 
 
 
+# write a table of 2 without using x and format 2 4 6 ......
 
 
 
-
-
-
-
+for i in range(2,21):
+    if i%2==0:
+       print (i)
+       
 
     
-
-
-
-
-
-
-
-
-
-
-# write a table from 1 to 7 in a format 1 x 1 = 1 and so on make sure after printing 1 table you have to prinnt another table in seperate column
-
-
-
+       
+       
 
 
 
