@@ -19,15 +19,22 @@ for i in range(2,21):
        print (i)
        
 
-    
-       
-       
-
-
-
 
 
 #print an array by taking input itself
+
+
+x = [1,2,3,4,5,6,7,8,20,30]
+print(x)
+    
+    
+    
+ 
+    
+
+
+
+
 
 
 
@@ -36,6 +43,14 @@ for i in range(2,21):
 
 
 #after printing an array check and return count of element which is divisble by 2
+
+count = 0
+for i in range(len(x)):
+    if x[i]%2==0:
+        count+=1
+print(count)
+        
+
 
 
 
