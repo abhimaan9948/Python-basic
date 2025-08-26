@@ -52,6 +52,48 @@ print(count)
         
 
 
+# write a code to print array of element in an alternate order make sure len arr >= 10
+
+x =[2,45,77,888,99999,909,111,563,934,12222,13333,123]
+for i in range(0,len(x),2): 
+    print(x[i])
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
