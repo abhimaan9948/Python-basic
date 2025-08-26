@@ -60,18 +60,37 @@ for i in range(0,len(x),2):
     
     
 
+# perform an operation only above array to print those elements which is greater than 15
+print("v")
+
+for i in range(len(x)):
+    if x[i]>=15:
+        print(x[i])
+
+
+# in a same array check how many elements in range between 40 to 200 return count of those element
+print("v")
+
+count = 0 
+for i in range(len(x)):
+    if x[i]>=40 and x[i]<=200:
+        count+=1
+print(count)
 
 
 
 
+# In a same array check whether a no 200 is there or not if yes then print index else print not presnt
 
+print("v")
 
+      
 
-
-
-
-
-
+for i in range(len(x)):
+    if x[i]==200:
+        print(i)
+print("not present")
+     
 
 
 
