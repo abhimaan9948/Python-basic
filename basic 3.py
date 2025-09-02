@@ -21,3 +21,14 @@ print (a)
 print (a[0])
 print (a[1])
 print (a[0],a[1],a[2])
+
+
+
+#
+arr = [1, 8, 7, 56, 90]
+x=0
+for i in range(len(arr)):
+    if arr[i]>x:
+        print(arr[i])
+        
+        
